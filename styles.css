@@ -90,11 +90,13 @@ body{
   background: transparent ;
   border: none;
   color:var(--clr-primary);
+}
+.sidebar-header button i{
   transition: all 0.3s linear;
 }
-.sidebar-header button:hover{
-  color:rgb(195, 34, 34);
+.sidebar-header button i:hover{
   transform: rotate(90deg);
+  color:red;
 }
 
 /* Side bar Links */
@@ -128,9 +130,7 @@ body{
   justify-content: center;
   padding: 2rem 3rem;
 }
-.sidebar-social li{
-  
-}
+
 .sidebar i{
   font-size: 1.5rem;
   color:var(--clr-focused);
